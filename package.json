@@ -1,0 +1,29 @@
+{
+  "name": "dinosaurjump",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewei2406/DinosaurJump.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ewei2406/DinosaurJump/issues"
+  },
+  "homepage": "https://github.com/ewei2406/DinosaurJump#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
