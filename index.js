@@ -8,14 +8,14 @@ app.get('/ping', (req, res) => {
     res.send("pong")
 })
 
-app.get('/assets/fonts/:id', (req, res) => {
+app.get('/assets/:id', (req, res) => {
     const options = {
         root: __dirname + '/public/',
         dotfiles: 'deny'
     }
 
     const id = req.params.id
-    const filename = `/assets/fonts/${id}`
+    const filename = `/assets/${id}`
 
     res.sendFile(filename, options, error => {
         if (error) {
